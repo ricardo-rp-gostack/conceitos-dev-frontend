@@ -1,8 +1,3 @@
-/* Arrow functions existem a partir de ES6. A maioria dos browsers nao suporta 
-arrow functions */
+import { sum } from './sum'
 
-const soma = (a, b) => {
-  return a + b;
-};
-
-console.log(a + b);
+console.log(sum(1, 4))
