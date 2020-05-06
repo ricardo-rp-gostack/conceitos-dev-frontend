@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
-// import { Container } from './styles';
+function Header({ title, children }) {
+  return (
+    <header>
+      <h1>{title}</h1>
 
-function Header() {
-  return <header>
-    <h1>ReactJs</h1>
-  </header>
+      {children}
+    </header>
+  );
 }
 
 export default Header;
